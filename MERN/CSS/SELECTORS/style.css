@@ -1,0 +1,29 @@
+/* https://colorhunt.co/ */
+
+/* Backend property */
+/* 
+1. Background color
+2. 
+
+*/
+/* 
+.contaner{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+} */
+
+.contaner{
+    height: 1280px;
+    /* background-color: blanchedalmond; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQshcDYQPTnlufRVdrYtkJakFSYMgOBcrcNTg&s"); */
+    
+    /* background-image: linear-gradient(to right  #fa709a 0%, #fee140 100%);
+     */
+    background-image: radial-gradient(circle,#fa709a 0%, #fee140 100%);
+    background-repeat: no-repeat;
+    background-position: top 30px center;
+
+    background-attachment: fixed;
+    background-size: contain;
+}
