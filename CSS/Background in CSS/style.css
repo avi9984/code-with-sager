@@ -1,0 +1,19 @@
+/*
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attechment
+*/
+
+.container{
+    background-color: #121358;
+    /* background-image: url("./beautiful-green-park-with-lake-ang-kaew-chiang-mai-universi.jpg") */
+    height: 1024px;
+    /* background-image: linear-gradient(to top left, rgb(207, 91, 91), orange, rgb(86, 86, 215)); */
+
+    background-image: url("beautiful-green-park-with-lake-ang-kaew-chiang-mai-universi.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}

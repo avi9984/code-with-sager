@@ -1,0 +1,68 @@
+/*By using tag name select the css*/
+
+h1{
+    background-color: red;
+    color: white;
+}
+/*class selector attribute to select css*/
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+/*id selector attribute to select css*/
+#id-container{
+    background-color: yellow;
+    color: blue;
+}
+
+/*specific targeting in css*/
+.parent-container> .father-container>h1{
+    background-color: purple;
+    color: white;
+}
+
+#sample-par>.sample-ch> p{
+    background-color: black;
+    color: white;
+}
+
+/*Group selector in css*/
+.container1, .container2{
+ background-color: black;
+}
+
+.container1{
+    color: yellow;
+}
+.container2{
+    color: white;
+}
+
+/*Attribute selector*/
+a[href="https://www.google.com"]{
+    background-color: greenyellow;
+    color: green;
+}
+
+.container3>.child{
+    background-color: blue;
+    color: white;
+}
+
+.container3> #child-3{
+    color: red;
+}
+
+
+
+/*By using Name
+  By using hash value
+  By using RGB
+  By using UVA
+*/
+.container4{
+    background-color: rgb(255, 98, 0);
+    color: rgb(255, 255, 255);
+}
