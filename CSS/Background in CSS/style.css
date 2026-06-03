@@ -16,4 +16,6 @@ background-attechment
     background-image: url("beautiful-green-park-with-lake-ang-kaew-chiang-mai-universi.jpg");
     /* background-size: cover; */
     background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
 }

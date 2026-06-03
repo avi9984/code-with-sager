@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent-container> .menu-button{
+    background-color: blueviolet;
+    color: white;
+    max-width: 150px;
+    text-align: center;
+    padding: 10px;
+    max-width: 150px;
+}
+
+.parent-container> .menu-options{
+    max-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-color: aliceblue;
+}
+
+.parent-container> .menu-options> a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.parent-container> .menu-options> a:hover{
+    background-color: black;
+    color: white;
+}
+
+.parent-container:hover> .menu-options{
+    display: flex;
+}

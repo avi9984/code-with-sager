@@ -1,0 +1,26 @@
+
+h1{
+    background-color: red;
+}
+
+p{
+    background-color: green;
+}
+
+.container{
+    background-color: aqua;
+}
+
+#id-container{
+    background-color: blue;
+}
+
+
+.grand-container> .parent-container> h1{
+    background-color: brown;
+    color: white;
+}
+
+.grand-container> div> p{
+    background-color: aqua;
+}

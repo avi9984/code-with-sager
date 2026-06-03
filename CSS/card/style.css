@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 280px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.card>ima{
+    width: 100%;
+}
+
+.card>.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card>.content> p{
+    font-size: 0.8rem;
+}
+
+.card>.content> button{
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    max-width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+}

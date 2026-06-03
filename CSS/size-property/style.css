@@ -1,0 +1,31 @@
+
+
+.container{
+    min-width: 500px;
+    max-width: 800px;
+
+    min-height: 500px;
+    max-height: 1024px;
+
+    background-color: red;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/* .box{
+    width: 1px;
+    height: 1px;
+    background-color: black;
+} */
+
+body{
+    width: 1200px;
+    height: 800px;
+}
+
+.box{
+    width: 60%;
+    background-color: black;
+}
