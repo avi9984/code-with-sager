@@ -1,0 +1,26 @@
+/* .container {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    padding: 30px;
+    margin: 10px 20px 30px 40px;
+    border-top: 30px solid palegreen;
+    border: 10px;
+    box-sizing: border-box;
+} */
+
+.container1{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin-bottom: 100px;
+    /* margin: auto; */
+    border-radius: 10px;
+}
+
+.container2{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-top: 50px;
+}

@@ -1,0 +1,26 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container > .top-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-container > .top-section>h3{
+    font-family: 'Releway';
+    font-size: 1.8rem;
+    color: #31221c;
+}
+

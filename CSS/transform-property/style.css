@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* transform: translate(100px, 100px); */
+    /* transform: scale(1,2); */
+    /* transform: rotate(55deg); */
+    /* transform: skew(20deg); */
+
+    transform: translate(100px, 100px) scale(1.5,2.1) rotate(35deg) skew(20deg);
+}

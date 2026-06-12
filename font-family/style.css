@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+
+
+/* h1{
+    font-size: 4rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+h3{
+    font-size: 4rem;
+    font-family: "Playwrite GB S Guides", cursive;
+} */
+
+p{
+    font-size: 2rem;
+    /* font-family: "Playwrite GB S Guides", cursive; */
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: #0c216c;
+    letter-spacing: 1px;
+    line-height: 40px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+    text-align-last: left;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+}
