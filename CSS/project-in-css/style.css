@@ -1,0 +1,13 @@
+
+
+
+.container{
+    width: 640px;
+    height: 480px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 300px;
+    position: relative;
+    background-image: url("https://ldevsoft.com/_next/image?url=%2Fimages%2Fabout-square-8.webp&w=640&q=75");
+}
