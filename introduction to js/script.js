@@ -105,8 +105,8 @@ var x = [
 ];
 
 x.map((ele) => {
-  for (var i in ele) {
-    console.log(i, ":", ele[i])
-  }
+  console.log("Title:", ele.title);
+  console.log("Price:", ele.price);
+  console.log("Category:", ele.category);
 })
 
