@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px, 360px));
+    gap: 30px;
+    justify-content: center;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.grid-container > .card{
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06)
+}
+
