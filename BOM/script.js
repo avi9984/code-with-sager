@@ -9,7 +9,7 @@
 // const 
 
 const newApi = async () => {
-    const result = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=e981b152dfc44819b691e8f45defea88')
+    const result = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=***********************')
     const json = await result.json()
     console.log(json)
 }
